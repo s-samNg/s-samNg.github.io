@@ -1,0 +1,48 @@
+body{
+    background-image: url('wall.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#container{
+display: flex;
+width: 350px; 
+margin: auto;
+flex-wrap: wrap;
+justify-content: center;
+/*
+grid-template-columns: repeat(3, 100px);
+grid-template-rows: repeat(4, 100px); */  
+grid-gap: 10px;
+margin-top: 180px;
+}
+.button{
+display:flex;
+width: 100px;
+height: 100px;    
+justify-content: center;
+align-items: center;
+/*place-items: center;*/
+font-size: 2.2rem;
+color: white;
+border-radius: 30px;
+background-color: rgb(36, 22, 22);
+user-select: none; 
+cursor: pointer;
+}
+.button:hover{
+    /* opacity: .9; */
+    background-color: rgb(143, 60, 60);
+}
+
+.button:first-child{
+order: 1;
+/* background-color: yellow; */
+}
+
+/* .button:active
+{
+background-color: rgb(189, 73, 73);
+} */
