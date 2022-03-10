@@ -6,6 +6,20 @@ body{
     background-size:cover;
 }
 
+h1, .enterpassword{
+    color: rgb(248, 238, 238);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Mitr', sans-serif;
+    
+}
+.enterpassword{
+    /* padding-right: 30px; */
+    font-size: 3rem;
+}
+h2 span:not(:last-child) {
+    padding-right: 35px;
+}
+
 #container{
 display: flex;
 width: 350px; 
@@ -16,7 +30,8 @@ justify-content: center;
 grid-template-columns: repeat(3, 100px);
 grid-template-rows: repeat(4, 100px); */  
 grid-gap: 10px;
-margin-top: 180px;
+margin-top: 30px;
+font-family: 'Abril Fatface', cursive;
 }
 .button{
 display:flex;
@@ -31,10 +46,12 @@ border-radius: 30px;
 background-color: rgb(36, 22, 22);
 user-select: none; 
 cursor: pointer;
+border: 1px solid rgb(85, 113, 190);
 }
 .button:hover{
     /* opacity: .9; */
-    background-color: rgb(143, 60, 60);
+    background-color: rgb(184, 169, 169);
+    color: rgb(59, 50, 50);
 }
 
 .button:first-child{
